@@ -24,5 +24,14 @@ public class Routes {
 	
 	//Store Module
 	
+	public static String poststore_url = base_url+"/store/order";
+	public static String getstore_url = base_url+"/store/order/{orderId}";
+	public static String deletestore_url =base_url+"/store/order/{orderId}";
+	
 	//Pet Module
+	
+	public static String postpet_url = base_url+"/pet";
+	public static String getpet_url = base_url+"/pet/{petId}";
+	public static String updatepet_url = base_url+"/pet/{petId}";
+	public static String deletepet_url = base_url+"/pet/{petId}";
 }
